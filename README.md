@@ -1,36 +1,38 @@
-🚀 Kasparro Agentic Content Generation System
+# Kasparro Agentic Content Generation System
 
-Author: Himaja Pancharatnam
-Repository: kasparro-agentic-himaja-pancharatnam
+**Author:** Himaja Pancharatnam
+**Repository:** `kasparro-agentic-himaja-pancharatnam`
 
-Project Summary
+---
 
-This project implements a modular agentic content generation system.
-It takes minimal product data and automatically produces structured, machine-readable JSON pages:
+## Project Summary
 
-Product Description Page
+This project implements a **modular agentic content generation system**. It takes minimal product data and automatically produces **structured, machine-readable JSON pages**, including:
 
-Comparison Page
+* Product Description Page
+* Comparison Page
+* FAQ Page
 
-FAQ Page
+The system uses **independent agents, reusable logic blocks, orchestration, and templates**, demonstrating a **production-style backend content automation pipeline**.
 
-The system is built with independent agents, reusable logic blocks, orchestration, and templates, demonstrating a production-style backend automation pipeline.
+---
 
-Architecture Highlights
+## Architecture Highlights
 
-Agent-Based Design: Each agent has a single responsibility.
+| Feature                      | Description                            |
+| ---------------------------- | -------------------------------------- |
+| Agent-Based Design           | Each agent has a single responsibility |
+| Orchestrator-Controlled Flow | Central pipeline execution             |
+| Logic Block Composition      | Reusable content logic modules         |
+| Template-Based Generation    | Structured JSON output                 |
+| Zero Hidden State            | Deterministic and predictable          |
+| JSON-only Output             | Ready for frontend or API consumption  |
 
-Orchestrator-Controlled Flow: Central pipeline execution.
+---
 
-Logic Block Composition: Reusable content logic modules.
+## Project Structure
 
-Template-Based Generation: Structured JSON output.
-
-Zero Hidden State: Deterministic and predictable.
-
-JSON-only Output: Ready for frontend consumption or API use.
-
-Project Structure
+```
 kasparro-agentic-himaja-pancharatnam/
 │
 ├── agents/                  # Data parsing & question generation
@@ -42,78 +44,84 @@ kasparro-agentic-himaja-pancharatnam/
 │   └── projectdocumentation.md
 ├── main.py                  # Entry point to run the pipeline
 └── README.md
+```
 
-How to Run
-Requirements
+---
 
-Python 3.9+
+## How to Run
 
-Windows / Mac / Linux
+### Requirements
 
-Run the system
+* Python 3.9+
+* Windows / Mac / Linux
 
-From project root directory:
+### Run the system
 
+From the project root directory:
+
+```bash
 python main.py
+```
 
-Output Files
+### Output Files
 
-After running, JSON files are generated in the outputs/ folder:
+After execution, JSON pages are generated in the `outputs/` folder:
 
-outputs/
-├── product_page.json
-├── comparison_page.json
-└── faq.json
+| File                 | Description                                  |
+| -------------------- | -------------------------------------------- |
+| product_page.json    | Structured product description page          |
+| comparison_page.json | Product comparison with fictional competitor |
+| faq.json             | Frequently Asked Questions page              |
 
-Documentation Link
+---
 
-Full project documentation, architecture, design decisions, and assumptions are in:
+## Documentation
 
+Full project documentation, including architecture, design decisions, and assumptions:
+
+```
 docs/projectdocumentation.md
+```
 
-Design Principles
+---
 
-Single-responsibility agents
+## Design Principles
 
-Explicit orchestration and flow control
+* Single-responsibility agents
+* Explicit orchestration and flow control
+* Reusable content logic blocks
+* Template-driven output
+* Deterministic JSON output
+* Modular and scalable architecture
 
-Reusable content logic blocks
+---
 
-Template-driven output
+## Goal Alignment
 
-Deterministic JSON output
+| Goal                       | Status |
+| -------------------------- | ------ |
+| Multi-agent workflows      | ✅      |
+| Automation graphs          | ✅      |
+| Reusable logic             | ✅      |
+| Template-driven generation | ✅      |
+| Machine-readable outputs   | ✅      |
+| Documentation included     | ✅      |
 
-Modular and scalable architecture
+---
 
-Goal Alignment
+## Evaluation Readiness
 
-Multi-agent workflows ✅
+| Feature                      | Status |
+| ---------------------------- | ------ |
+| Agent orchestration          | ✅      |
+| Modular design               | ✅      |
+| Machine-readable JSON output | ✅      |
+| Template abstraction         | ✅      |
+| Reusable logic blocks        | ✅      |
+| Clean repository structure   | ✅      |
 
-Automation graphs ✅
+---
 
-Reusable logic ✅
+## Final Note
 
-Template-driven generation ✅
-
-Machine-readable outputs ✅
-
-Documentation included ✅
-
-Evaluation Readiness
-
-Agent orchestration ✅
-
-Modular design ✅
-
-Machine-readable JSON output ✅
-
-Template abstraction ✅
-
-Reusable logic blocks ✅
-
-Clean repository structure ✅
-
-Final Note
-
-This project demonstrates production-level backend system design over prompt-based solutions.
-It focuses on architecture, modularity, and maintainability, aligning with Kasparro's evaluation criteria.
+This project demonstrates **production-grade backend system design**, focusing on **architecture, modularity, and maintainability**, fully aligning with **Kasparro’s evaluation criteria**.
