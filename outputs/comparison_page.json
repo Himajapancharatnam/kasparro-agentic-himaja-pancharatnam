@@ -1,0 +1,18 @@
+{
+    "product_a": {
+        "name": "GlowBoost Vitamin C Serum",
+        "benefits": [
+            "Brightening",
+            "Fades dark spots"
+        ],
+        "price": "₹699"
+    },
+    "product_b": {
+        "name": "Fictional Serum B",
+        "benefits": [
+            "Brightening",
+            "Reduces fine lines"
+        ],
+        "price": "₹799"
+    }
+}

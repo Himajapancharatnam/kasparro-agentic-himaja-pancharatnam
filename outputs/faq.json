@@ -1,0 +1,60 @@
+{
+    "faqs": [
+        {
+            "category": "Informational",
+            "question": "What is GlowBoost Vitamin C Serum?"
+        },
+        {
+            "category": "Informational",
+            "question": "What does Vitamin C do for skin?"
+        },
+        {
+            "category": "Informational",
+            "question": "Who should use this serum?"
+        },
+        {
+            "category": "Informational",
+            "question": "Is this suitable for oily skin?"
+        },
+        {
+            "category": "Usage",
+            "question": "How do I apply GlowBoost serum?"
+        },
+        {
+            "category": "Usage",
+            "question": "Should I use this before or after moisturizer?"
+        },
+        {
+            "category": "Usage",
+            "question": "Can I use this daily?"
+        },
+        {
+            "category": "Usage",
+            "question": "How many drops should I apply?"
+        },
+        {
+            "category": "Safety",
+            "question": "Is tingling normal?"
+        },
+        {
+            "category": "Safety",
+            "question": "Can sensitive skin users apply this?"
+        },
+        {
+            "category": "Safety",
+            "question": "Are there side effects?"
+        },
+        {
+            "category": "Safety",
+            "question": "Can this cause breakouts?"
+        },
+        {
+            "category": "Purchase",
+            "question": "What is the price?"
+        },
+        {
+            "category": "Purchase",
+            "question": "Where can I buy GlowBoost?"
+        }
+    ]
+}
